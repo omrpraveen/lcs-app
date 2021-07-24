@@ -26,7 +26,6 @@ here I am posting curl example.
 
 ```
 curl --location --request POST 'http://localhost:8080/lcs' \
---header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoY3BAcG9ydGFsLmNvbSIsInNjb3BlcyI6W3siYXV0aG9yaXR5IjoiUk9MRV9IQ1BfQURNSU4ifV0sImlzcyI6InBhdGluZXQgcG9ydGFsIiwiaWF0IjoxNjIzMzQ5NTU5LCJleHAiOjE2MjMzNjc1NTl9.iqNPZ10zM8quDc1iXWgHTxhdP4muKBbVIIRtVNXYvPE' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "setOfStrings": [
